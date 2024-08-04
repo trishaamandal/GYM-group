@@ -14,7 +14,7 @@ import { ToastContainer } from 'react-toastify';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <Navbar />
       <Hero />
       <WorkoutSessions />
